@@ -1,0 +1,110 @@
+[
+  {
+    "type": "select",
+    "name": "favoriteGame",
+    "label": "Nombre Cliente",
+    "value": "",
+    "options": [
+      {
+        "id": 1,
+        "label": "Super Smash"
+      },
+      {
+        "id": 2,
+        "label": "Metal Gear"
+      },
+      {
+        "id": 3,
+        "label": "Resident Evil"
+      }
+    ],
+    "validations": [
+      {
+        "type": "required",
+        "errorMessage": ""
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "nombreCliente",
+    "placeholder": "nombre cliente...",
+    "label": "Nombre Cliente",
+    "value": "",
+    "validations": [
+      {
+        "type": "required",
+        "errorMessage": ""
+      },
+      {
+        "type": "minLength",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "contactoCliente",
+    "placeholder": "numero de telefono",
+    "label": "Contacto Cliente",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "direccionCliente",
+    "placeholder": "Domicilio...",
+    "label": "Direccion Cliente",
+    "value": ""
+  },
+  {
+    "type": "input",
+    "name": "nombrePedido",
+    "placeholder": "nombre del pedido...",
+    "label": "Nombre del Pedido ",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "descripcionPedido",
+    "placeholder": "Descripcion del pedido...",
+    "label": "Descripcion del Pedido ",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "notas",
+    "placeholder": "Descripcion del pedido...",
+    "label": "Notas del Pedido ",
+    "value": ""
+  },
+  {
+    "type": "email",
+    "name": "correoElectronico",
+    "placeholder": "cliente@gmail.com",
+    "label": "Email",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "email"
+      }
+    ]
+  }
+]

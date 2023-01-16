@@ -1,0 +1,121 @@
+{
+  "empresas": [
+    {
+      "id": 1,
+      "nombreEmpresa": "SG Company",
+      "direccionEmpresa": "Zapiola 2022",
+      "contactoEmpresa": "1122334455",
+      "observacionesParticulares": "Formas y condiciones de contratación: Precios indicados no incluyen IVA .Valores expresados en dólares EE.UU. Tipo  de cambio : vendedor -Bco Nación. Forma de pago:70% acopio y saldo contra entrega.",
+      "aclaracionesGenerales": "Plazo de entrega : hasta 25 días  desde el replanteo."
+    },
+    {
+      "id": 2,
+      "nombreEmpresa": "Campito Futsal",
+      "direccionEmpresa": "nuñez 2629",
+      "contactoEmpresa": "112412421412",
+      "observacionesParticulares": "observaciones de la empresa el campito",
+      "aclaracionesGenerales": ""
+    },
+    {
+      "id": 3,
+      "nombreEmpresa": "Mesta SA",
+      "direccionEmpresa": "Cabildo 2620 6f",
+      "contactoEmpresa": "333124124124",
+      "observacionesParticulares": "observaciones de la empresa Mesta SA",
+      "aclaracionesGenerales": ""
+    }
+  ],
+  "clientes": [
+    {
+      "nombreCliente": "Burbon SA",
+      "contactoCliente": "333124124124",
+      "direccionCliente": "Ciudad de la paz 1202 3b",
+      "correoElectronico": "BurbonSA@gmail.com",
+      "nombrePedido": "Pedido-Burbon",
+      "descripcionPedido": "la descripciooon es Pedido-Burbon",
+      "pedidoCliente": "10 metros de travertino por 5x3cm",
+      "fechaUltimaModificacion": "2022-12-19T16:20:32.122Z",
+      "id": 101
+    },
+    {
+      "nombreCliente": "Herrajes SRL",
+      "contactoCliente": "222222",
+      "direccionCliente": "Congreso 3002 5A",
+      "correoElectronico": "herrajesSRL@gmail",
+      "pedidoCliente": "50 metros de granito termolado ahre",
+      "nombrePedido": "Pedido-Herrajes-SRL",
+      "descripcionPedido": "la descripciooon es Pedido-Herrajes",
+      "fechaUltimaModificacion": "2022-12-20T18:16:55.643Z",
+      "id": 102
+    },
+    {
+      "nombreCliente": "SANTIAGO SA",
+      "contactoCliente": "1134091100",
+      "direccionCliente": "zapiola 2156",
+      "correoElectronico": "santymauro.sg@gmail.com",
+      "pedidoCliente": "-",
+      "nombrePedido": "Pedido-SANTIAGO SA",
+      "descripcionPedido": "la descripciooon es SANTIAGO SA",
+      "fechaUltimaModificacion": "2022-12-20T22:16:06.642Z",
+      "id": 103
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 2032,
+      "pedidoPrevio": {
+        "descripcionPedido": "50 metros de granito termolado-pedidoPrevio",
+        "nombrePedido": "Pedido-Burbon-pedidoPrevio",
+        "nombreCliente": "Burbon SA-pedidoPrevio",
+        "fecha": "1999-23-10",
+        "estado": "terminado"
+      },
+      "variables": {
+        "validezPresupuesto": 20,
+        "nombrePedido": "Pedido-Bourbon-Variables",
+        "descripcionPedido": "50 metros de granito termolado ahre",
+        "numeroCotizacion": {
+          "completo": "SA-3333-Pedido-Burbon-Variables",
+          "numero": 1000
+        },
+        "fechaPresupuesto": "1999-23-10",
+        "descuentoTotal": 10,
+        "tipoDescuento": "profesional"
+      },
+      "cliente": {
+        "nombreCliente": "Burbon SA",
+        "contactoCliente": "333124124124",
+        "direccionCliente": "Ciudad de la paz 1202 3b",
+        "nombrePedido": "Pedido-Burbon",
+        "descripcionPedido": "la descripciooon es Pedido-Burbon"
+      },
+      "empresa": {
+        "id": 2,
+        "nombreEmpresa": "Campito Futsal",
+        "direccionEmpresa": "nuñez 2629",
+        "contactoEmpresa": "112412421412",
+        "observacionesParticulares": "observaciones de la empresa el campito",
+        "aclaracionesGenerales": "no hay acalaracions"
+      },
+      "productosList": [
+        {
+          "cantidad": 4,
+          "costoUnitario": 2,
+          "descripcion": "CACA por doquier",
+          "nombreMaterial": "madera",
+          "coeficienteVenta": 1.5,
+          "monedaCotizar": "peso"
+        },
+        {
+          "cantidad": 17,
+          "costoUnitario": 4,
+          "descripcion": "POPO por doquier",
+          "nombreMaterial": "quarzo",
+          "coeficienteVenta": 1.5,
+          "monedaCotizar": "dolar"
+        }
+      ]
+    }
+  ],
+  "pruebas": []
+}

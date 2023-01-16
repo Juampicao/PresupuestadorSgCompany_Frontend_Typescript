@@ -1,0 +1,79 @@
+[
+  {
+    "type": "input",
+    "name": "nombreMaterial",
+    "placeholder": "nombre Material...",
+    "label": "Nombre Material",
+    "value": "",
+    "validations": [
+      {
+        "type": "required",
+        "errorMessage": ""
+      },
+      {
+        "type": "minLength",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "img": "C:UsersjuanpOneDriveDocumentosProgramacionAppSantiPresupuestosPdfPresupuestosSgCompanyTS\frontendsrcimg\newIconscliente.png",
+    "type": "number",
+    "name": "coeficienteVenta",
+    "placeholder": "",
+    "label": "Coeficiente de Venta",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      }
+    ]
+  },
+
+  {
+    "type": "input",
+    "name": "costoUnitario",
+    "placeholder": "Costo unitario por metro",
+    "label": "Costo Unitario Material",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "cantidad",
+    "placeholder": "Cantidad de metros",
+    "label": "Cantidad de metros",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "name": "monedaCotizar",
+    "label": "Moneda a cotizar",
+    "value": "",
+    "options": [
+      {
+        "id": 1,
+        "label": "Dolar Estadounidense"
+      },
+      {
+        "id": 2,
+        "label": "Peso Argentino"
+      }
+    ],
+    "validations": [
+      {
+        "type": "required",
+        "errorMessage": ""
+      }
+    ]
+  }
+]
